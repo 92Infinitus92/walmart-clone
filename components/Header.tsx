@@ -23,7 +23,7 @@ function Header() {
     event.preventDefault();
 
     if (searchInput) {
-      router.push(`/search/${searchInput}`);
+      router.push(`/search?q=${searchInput}`);
     }
   };
   return (
@@ -97,7 +97,7 @@ function Header() {
         </Link>
 
         <Link
-          href={"/"}
+          href={"/basket"}
           className="flex text-white font-bold items-center space-x-2 text-sm"
         >
           <ShoppingBasket size={20} />

@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "walmart.com",
       },
+      {
+        protocol: "https",
+        hostname: "links.papareact.com",
+      },
     ],
   },
 };
